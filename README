@@ -1,0 +1,18 @@
+TIDY CC2540 SIMPLEBLEPERIPHERAL EXAMPLE
+
+Disclaimer: This worked with the version 1.4.0 of CC2540/41 Bluetooth Low Energy SDK. In 1.4.1 there should be some issues I didn't bother to fix and I just copied 1.4.0 files instead.
+
+Texas Instruments' way to diagram and order things sucks. You originally can't take out the project from the Projects folder, so in order to make it more portable and editable, I had
+to adjust this a bit, separating the files you may edit and the common libraries.
+
+This is just a rearranged copy of the SimpleBLEPeripheral project you should have when you download the BLE Stack in the Texas Instruments main page (www.ti.com)
+
+You must abide to the license in the source code files in order to use this project (this is not my fault, I just don't want to get sued just for sharing two hours of work)
+
+INSTRUCTIONS
+If your BLE Stack installation folder is not "C:\Texas Instruments\BLE-CC254x-1.4.1.43908a", open TriplePeripheral.ewp file with your favourite text editor (it's an XML file) and replace this route with
+the route where you have Texas BLE Stack installed.
+
+Open with IAR Embedded Workbench for 8051 the workspace "TriplePeripheral.eww", and the program should compile and link nicely as it is.
+
+Edit as you wish.
