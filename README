@@ -16,3 +16,5 @@ the route where you have Texas BLE Stack installed.
 Open with IAR Embedded Workbench for 8051 the workspace "TriplePeripheral.eww", and the program should compile and link nicely as it is.
 
 Edit as you wish.
+
+If by some accident I'm violating some terms of Texas Instrument EULA, please let me know and I'll act accordingly.
